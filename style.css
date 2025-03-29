@@ -14,8 +14,6 @@ nav {
     position: fixed;
     width: 100%;
     padding: 15px;
-    padding-right: -20px;
-    padding-left: -10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -36,8 +34,7 @@ nav ul li a {
 .hero {
     background: #3FD2C7;
     text-align: center;
-    padding: 50px;
-    padding-top: 120px;
+    padding: 120px 50px 50px;
     color: white;
 }
 
@@ -67,6 +64,8 @@ nav ul li a {
     background: #00458B;
     color: white;
     border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
     cursor: pointer;
 }
 
@@ -90,6 +89,7 @@ nav ul li a {
     color: white;
     border: none;
     padding: 10px;
+    border-radius: 4px;
     cursor: pointer;
 }
 
@@ -106,6 +106,8 @@ form input, form textarea {
     margin: 10px auto;
     padding: 10px;
     width: 80%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
 }
 
 form button {
@@ -113,5 +115,6 @@ form button {
     color: white;
     border: none;
     padding: 10px;
+    border-radius: 4px;
     cursor: pointer;
 }
