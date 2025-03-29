@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en"> 
+ <head> 
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <title>LegalHelp</title> 
+  <link rel="stylesheet" href="styles.css"> 
+ </head> 
+ <body> <!-- Navbar --> 
+  <nav> 
+   <div class="logo">
+     LegalHelp 
+   </div> 
+   <ul> 
+    <li><a href="#laws">Laws</a></li> 
+    <li><a href="#experts">Experts</a></li> 
+    <li><a href="#contact">Contact Us</a></li> 
+   </ul> 
+  </nav> <!-- Hero Section --> 
+  <header class="hero"> 
+   <h1>Your Legal Assistance Hub</h1> 
+   <p>Find laws, consult experts, and get legal help.</p> 
+  </header> <!-- Laws Section --> 
+  <section id="laws"> 
+   <h2>Legal Topics</h2> 
+   <div class="law-card"> 
+    <h3>Consumer Rights</h3> <button class="expand-btn">+</button> 
+    <p class="law-text">Consumer rights protect buyers from unfair practices...</p> 
+   </div> 
+   <div class="law-card"> 
+    <h3>Labor Law</h3> <button class="expand-btn">+</button> 
+    <p class="law-text">Labor laws govern employment relationships...</p> 
+   </div> 
+  </section> <!-- Experts Section --> 
+  <section id="experts"> 
+   <h2>Legal Experts<br></h2> 
+   <div class="expert-card"> 
+    <img scr="" alt="Lawyer"> 
+    <h3>John Doe</h3> 
+    <p>₹300 / Consultation</p> <button class="consult-btn">Consult Now</button> 
+   </div> 
+   <div class="expert-card"> 
+    <img scr="" alt="Lawyer"> 
+    <h3>Jane Smith</h3> 
+    <p>₹250 / Consultation</p> <button class="consult-btn">Consult Now</button> 
+   </div> 
+  </section> <!-- Contact Us Section --> 
+  <section id="contact"> 
+   <h2>Contact Us</h2> 
+   <form id="contactForm"> 
+    <input type="text" placeholder="Name" required> 
+    <input type="email" placeholder="Email" required> 
+    <input type="tel" placeholder="Phone No" required> <textarea placeholder="Your Query" required></textarea> <button type="submit">Submit</button> 
+   </form> 
+  </section> <!-- Firebase SDK --> 
+  <script src="https://www.gstatic.com/firebasejs/10.5.0/firebase-app.js"></script> 
+  <script src="https://www.gstatic.com/firebasejs/10.5.0/firebase-firestore.js"></script> <!-- Custom JS --> 
+  <script src="script.js"></script> 
+ </body>
+</html>
