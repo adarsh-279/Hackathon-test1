@@ -1,0 +1,117 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #99DDFF;
+    color: #00458B;
+}
+
+/* Navbar */
+nav {
+    background-color: #00458B;
+    color: white;
+    position: fixed;
+    width: 100%;
+    padding: 15px;
+    padding-right: -20px;
+    padding-left: -10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+    background: #3FD2C7;
+    text-align: center;
+    padding: 50px;
+    padding-top: 120px;
+    color: white;
+}
+
+/* Laws Section */
+#laws {
+    padding: 20px;
+}
+
+.law-card {
+    background: white;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+.law-card .law-text {
+    display: none;
+    margin-top: 10px;
+}
+
+.expand-btn {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background: #00458B;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Experts Section */
+#experts {
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.expert-card {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.consult-btn {
+    background: #3FD2C7;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* Contact Form */
+#contact {
+    padding: 20px;
+    background: #00458B;
+    color: white;
+    text-align: center;
+}
+
+form input, form textarea {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    width: 80%;
+}
+
+form button {
+    background: #3FD2C7;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
